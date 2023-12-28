@@ -11,7 +11,7 @@ Currently, two official plugins are available:
 This is my personal portfolio project where i will do continuous changes
 
 ## The working file
-    [﻿Untitled File](https://app.eraser.io/workspace/plGn8XbHoAYO6t7qUOKX)+ 
+Open  [﻿Untitled File](https://app.eraser.io/workspace/plGn8XbHoAYO6t7qUOKX) and view
 
 
 <!--- Eraser file: https://app.eraser.io/workspace/GC3QXJhTtonkKSiGwKlF --->
