@@ -1,15 +1,26 @@
+@import url(https://db.onlinewebfonts.com/c/89f9d5d8d8cfe941b20f6a20f4dd99bc?family=Panoptica+W00+Script);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
+/* @font-face {
+    font-family: "Panoptica W00 Script";
+    src: url("https://db.onlinewebfonts.com/t/89f9d5d8d8cfe941b20f6a20f4dd99bc.eot");
+    src: url("https://db.onlinewebfonts.com/t/89f9d5d8d8cfe941b20f6a20f4dd99bc.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/89f9d5d8d8cfe941b20f6a20f4dd99bc.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/89f9d5d8d8cfe941b20f6a20f4dd99bc.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/89f9d5d8d8cfe941b20f6a20f4dd99bc.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/89f9d5d8d8cfe941b20f6a20f4dd99bc.svg#Panoptica W00 Script")format("svg");
+} */
 
 
 *{
+  
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* border: 1px solid yellow; */
+  /* border: 1px solid red; */
 }
 a{
   font-weight: bolder;
@@ -36,3 +47,6 @@ button:focus-visible {
 }
 
 
+.active{
+  color: aqua;
+}

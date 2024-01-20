@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        pano: ["Panoptica W00 Script"]
+      }
+    },
+
   },
   plugins: [],
 }
