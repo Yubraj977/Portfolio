@@ -1,8 +1,8 @@
 import React from 'react'
-
+import game from '../../public/game.png'
 function Home() {
   return (
-    <div className=' bg-stone-700 flex items-center h-screen px-20'>
+    <div className=' bg-stone-700 flex justify-between items-center h-screen pl-20'>
       
       <div className="left w-1/2">
         <div className='bg-cyan-700  w-fit p-2 rounded-sm font-black'>FULL STACK DEVELOPER</div>
@@ -16,7 +16,9 @@ function Home() {
         <div className='mt-8 underline text-green-700 font-bold text-lg'>Let's Chat</div>
       </div>
       <div className="right ">
-        <div className='aspect-square w-96 bg-stone-800 rounded-full' ></div>
+        {/* <div className='aspect-square w-96 bg-stone-800 rounded-full' ></div> */}
+
+        <div className='h-screen'><img src={game} alt="" className='object-cover w-full h-full'/></div>
         
       </div>
       </div>
