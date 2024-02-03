@@ -15,10 +15,10 @@ function Home() {
         <div className='mt-4 text-slate-300 text-lg'>I am this this this abd this  this is the time of the time and this gonna be the best of the all time this not gonna el</div>
         <div className='mt-8 underline text-green-700 font-bold text-lg'>Let's Chat</div>
       </div>
-      <div className="right ">
+      <div className="right h-screen pt-14 ">
         {/* <div className='aspect-square w-96 bg-stone-800 rounded-full' ></div> */}
 
-        <div className='h-screen'><img src={game} alt="" className='object-cover w-full h-full'/></div>
+       <img src={game} alt="" className='object-cover w-full h-full'/>
         
       </div>
       </div>
