@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        pano: ["Panoptica W00 Script"]
+        pano: ["Panoptica W00 Script"],
+        inika:['Inika']
       }
     },
 
