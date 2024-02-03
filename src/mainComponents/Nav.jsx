@@ -20,9 +20,9 @@ function Nav() {
     return (
         <div>
             <nav class=" fixed w-full top-0 z-10 bg-stone-700">
-                <div className='flex justify-between items-between mt-2 px-4'>
+                <div className='flex justify-between items-between  px-4'>
                     <div className="left font-bold text-2xl text-white"><span className='font-black text-green-700 text-3xl'>Yubraj</span> Khatri</div>
-                    <div className="Middle flex justify-between gap-4 font-bold text-white" >
+                    <div className="Middle flex items-center gap-4 font-bold text-white" >
                         <div onClick={() => scrollToSection(home)}>Home</div>
                         <div onClick={() => scrollToSection(about)}>About</div>
                         <div onClick={() => scrollToSection(services)}>Services</div>
