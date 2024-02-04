@@ -22,7 +22,7 @@ function Nav() {
             <nav class=" fixed w-full top-0 z-10 bg-stone-700">
                 <div className='flex justify-between items-between  px-4'>
                     <div className="left font-bold text-2xl text-white"><span className='font-black text-green-700 text-3xl'>Yubraj</span> Khatri</div>
-                    <div className="Middle flex items-center gap-4 font-bold text-white" >
+                    <div className="Middle  items-center gap-4 font-bold text-white hidden lg:flex" >
                         <div onClick={() => scrollToSection(home)}>Home</div>
                         <div onClick={() => scrollToSection(about)}>About</div>
                         <div onClick={() => scrollToSection(services)}>Services</div>
@@ -32,9 +32,9 @@ function Nav() {
                     </div>
 
                     <div className="right flex gap-4 mr-8 text-white text-sm justify-center items-center">
-                        <div className='Twitter'>   <span><i class="fa-brands fa-twitter"></i>  </span> <span className='mr-2'>Twitter</span> </div>
-                        <div className='Github'>   <span><i class="fa-brands fa-github"> </i> </span>  <span className='mr-2'>Github</span>  </div>
-                        <div className='linkenden'>  <span> <i class="fa-brands fa-linkedin"></i> </span> <span className='mr-2'>Linkenden</span>  </div>
+                        <div className='Twitter'>  <a href="https://twitter.com/YubrajK81639352" target='blank'> <span><i class="fa-brands fa-twitter"></i>  </span> <span className='mr-2'>Twitter</span></a> </div>
+                        <div className='Github'>  <a href="https://github.com/Yubraj977" target='blank'> <span><i class="fa-brands fa-github"> </i> </span>  <span className='mr-2'>Github</span> </a> </div>
+                        <div className='linkenden'> <a href="https://www.linkedin.com/in/yubraj-khatri-155786243/" target='blank'>  <span> <i class="fa-brands fa-linkedin"></i> </span> <span className='mr-2'>Linkenden</span> </a> </div>
                         
                     </div>
 
