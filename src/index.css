@@ -20,10 +20,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  border: 1px solid red;
-  /* font-family: 'Inika'; */
+  /* border: 1px solid white; */
+  font-family: 'Inika';
 
 }
+
+
 a{
   font-weight: bolder;
 }

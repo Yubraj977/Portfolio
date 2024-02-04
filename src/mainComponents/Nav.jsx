@@ -19,11 +19,11 @@ function Nav() {
     }
     return (
         <div>
-            <nav class=" fixed w-full top-0 z-10 bg-stone-700">
+            <nav class=" fixed w-full top-0  bg-stone-700 ">
                 <div className='flex justify-between items-between px-2  lg:px-4 md:px-4'>
                     <div className="left font-bold text-2xl text-white flex flex-col lg:flex-row"><span className='font-black text-green-700 text-3xl'>Yubraj</span> Khatri</div>
                     <div className="Middle  items-center gap-4 font-bold text-white hidden lg:flex md:flex" >
-                        <div onClick={() => scrollToSection(home)}>Home</div>
+                        <div onClick={() => scrollToSection(home)} >Home</div>
                         <div onClick={() => scrollToSection(about)}>About</div>
                         <div onClick={() => scrollToSection(services)}>Services</div>
 
@@ -41,7 +41,7 @@ function Nav() {
                 </div>
             </nav>
            
-            <div className='' ref={home}><Home/></div>
+            <div className='mt-9' ref={home} ><Home/></div>
             <div className='' ref={about}><About/></div>
             <div className='bg-red-500 h-screen' ref={services}><Services/></div>
             <div className='bg-red-500 h-screen' ref={testmimonials}><Testimonials/></div>

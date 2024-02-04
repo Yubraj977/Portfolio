@@ -1,45 +1,33 @@
 import React from 'react'
-import game from '../../public/game.png'
+import game from '/game.png'
 function Home() {
   return (
-    <div className=' bg-stone-700 flex justify-between items-center h-screen pl-24'>
-
-
-      {/* div left part */}
-      <div className="left w-1/2 justify-between flex flex-col h-full py-20">
-        <div className='mt-28'>
-          <div className='bg-cyan-700  w-fit px-1 py-2 rounded-sm font-black'>FULL STACK DEVELOPER</div>
-          <div className='text-4xl font-black  mt-4 text-white font-inika'>
+    <div className="main  bg-stone-700 flex flex-col lg:h-screen  md:h-screen lg:flex-row lg:justify-between pl-4 lg:pl-8">
+      {/* For the left part */}
+      <div className="left lg:w-1/2 flex flex-col justify-between my-10 z-10">
+        <div className="top mt-20">
+        <h1 className='bg-cyan-700  w-fit px-1 py-2 rounded-sm font-black'>FULL STACK DEVELOPER</h1>
+        <div className='text-4xl font-black  mt-4 text-white font-inika'>
             <div>No Guts, No Glory </div>
-
             <div>No Legend ,No Story </div>
-
           </div>
           <div className='mt-4 text-slate-300 text-lg'>I love to constumize every section thats why i choose coding. Come on lets build something for future together. It's all about liverage</div>
           <div className='mt-8 underline text-green-700 font-bold text-lg'>Let's Chat</div>
         </div>
-
-
-
-
-       
-        <div className='left-bottom flex gap-16  text-white mt-6'>
-          <div className='border-b-2 slate-300 py-2'> <span className='text-sm font-black'>10+</span > Projects</div>
-          <div className='border-b-2 border-neutral-300 py-2'> <span> 120+</span> contributions</div>
-
+        {/* For left bottom part */}
+        <div className="bottom">
+          <div className='left-bottom flex gap-16  text-white mt-6'>
+            <div className='border-b-2 slate-300 py-2'> <span className='text-sm font-black'>10+</span > Projects</div>
+            <div className='border-b-2 border-neutral-300 py-2'> <span> 120+</span> contributions</div>
+          </div>
         </div>
-
       </div>
 
+      {/* For the right part */}
 
-
-
-
-      {/* Div right part */}
-      <div className="right h-screen pt-14 ">
-        {/* <div className='aspect-square w-96 bg-stone-800 rounded-full' ></div> */}
-
+      <div className="right lg:h-screen absolute lg:relative z-0 opacity-40 lg:opacity-100 ">
         <img src={game} alt="" className='object-cover w-full h-full' />
+
       </div>
 
     </div>
