@@ -2,7 +2,7 @@ import React from 'react'
 import game from '/game.png'
 function Home() {
   return (
-    <div className="main  bg-stone-700 flex flex-col lg:h-screen  md:h-screen lg:flex-row lg:justify-between pl-4 lg:pl-8 h-screen ">
+    <div className="main   flex flex-col lg:h-screen  md:h-screen lg:flex-row lg:justify-between pl-4 lg:pl-8 h-screen text-second">
 
 
       {/* For the left part */}
