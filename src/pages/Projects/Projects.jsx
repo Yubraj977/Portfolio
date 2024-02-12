@@ -28,7 +28,7 @@ function App() {
 
 
       </div>
-      <div className='flex  gap-4 flex-wrap'>
+      <div className='flex  gap-4 flex-wrap justify-center items-center'>
         {data.map((element) => {
           const { title, image, technology, link, id,description } = element
           return (
