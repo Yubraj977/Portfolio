@@ -1,10 +1,10 @@
 import React from 'react'
 import { useRef } from 'react'
-import Home from '../pages/Home'
-import About from '../pages/About'
-import Services from '../pages/Services'
-import Testimonials from '../pages/Testimonials'
-import Projects from '../pages/Projects'
+import Home from '../pages/Home/Home'
+import About from '../pages/About/About'
+import Services from '../pages/Services/Services'
+import Testimonials from '../pages/Testimonials/Testimonials'
+import Projects from '../pages/Projects/Projects'
 function Nav() {
     const home = useRef(null)
     const about = useRef(null)

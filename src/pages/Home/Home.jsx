@@ -1,12 +1,14 @@
 import React from 'react'
 import game from '/game.png'
+import layer from '/layer.svg'
+import  './Home.css'
 function Home() {
   return (
-    <div className="main   flex flex-col lg:h-screen  md:h-screen lg:flex-row lg:justify-between pl-4 lg:pl-8 h-screen text-second">
+    <div className="main   flex flex-col lg:h-screen  md:h-screen lg:flex-row lg:justify-between pl-4 lg:pl-8 h-screen" >
 
 
       {/* For the left part */}
-      <div className="left lg:w-1/2 flex flex-col  justify-center h-screen lg:h-auto  lg:justify-between my-10 z-10 ">
+      <div className="left lg:w-1/2 flex flex-col  justify-center h-screen lg:h-auto  lg:justify-between my-10 z-10 " >
         <div className="top lg:mt-20 ">
         <h1 className='bg-green-500  w-fit px-1 py-2 rounded-sm font-black'>FULL STACK DEVELOPER</h1>
         <div className='text-6xl lg:text-4xl font-black  mt-4 text-white font-inika'>

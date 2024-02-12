@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='h-screen bg-neutral-100'>
+    <div className='h-screen '>
       
     </div>
   )
