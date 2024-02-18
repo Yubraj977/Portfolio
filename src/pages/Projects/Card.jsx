@@ -5,11 +5,8 @@ function Card({image,title,technology,link ,description}) {
   return (
     <>
     
-
-
-
-<div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-   <div className=' h-60 w-full'>
+<div className="max-w-xs bg-white border border-gray-20 rounded-lg shadow dark:bg-gray-80 dark:border-gray-70">
+   <div className=' h-40 w-full'>
     <a href={link} >
         <img className="rounded-t-lg w-full h-full object-cover" src={image} alt="" />
     </a>
@@ -30,24 +27,7 @@ function Card({image,title,technology,link ,description}) {
 </div>
 
 
-{/* <div classNameName="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
-        <img classNameName="p-8 rounded-t-lg" src={image} alt="product image" />
-    </a>
-    <div classNameName="px-5 pb-5">
-        <a href="#">
-            <h5 classNameName="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{title}</h5>
-        </a>
-        <div classNameName="flex items-center mt-2.5 mb-5">
-            
-            <span classNameNameName="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">{technology}</span>
-        </div>
-        <div classNameName="flex items-center justify-center">
-          
-            <a href={link} classNameName="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 w-full">view</a>
-        </div>
-    </div>
-</div> */}
+
 
     </>
   )

@@ -19,7 +19,7 @@ export default {
       colors:{
         first:'#000000',
         second:'#FFFFFF',
-        third:'##2d6cdf',
+        third:'#2d6cdf',
         fourth:'#430d27'
         
 
