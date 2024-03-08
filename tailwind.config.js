@@ -17,7 +17,7 @@ export default {
         inika:['Inika']
       },
       colors:{
-        first:'#000000',
+        first:'rgb(25,25,25)',
         second:'#FFFFFF',
         third:'#2d6cdf',
         fourth:'#430d27'

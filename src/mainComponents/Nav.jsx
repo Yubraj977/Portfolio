@@ -1,22 +1,50 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 import { useRef } from 'react'
 import Home from '../pages/Home/Home'
 import About from '../pages/About/About'
 import Services from '../pages/Services/Services'
 import Testimonials from '../pages/Testimonials/Testimonials'
 import Projects from '../pages/Projects/Projects'
+import Stacks from '../pages/Stack/Stacks'
 function Nav() {
+    
     const home = useRef(null)
     const about = useRef(null)
     const services = useRef(null)
     const testmimonials = useRef(null)
     const projects = useRef(null)
+    const stacks = useRef(null)
+    // const scrollToSection = (elementRef) => {
+    //     window.scrollTo({
+    //         top: elementRef.current.offsetTop,
+    //         behavior: 'smooth'
+    //     })
+    // }
+useEffect(() => {
+    const handleScroll = () => {
+  
+        clearTimeout(timeout);
+        timeout = setTimeout(() => {
+            
+        }, 250);
+    };
+
+    let timeout;
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+        window.removeEventListener('scroll', handleScroll);
+    };
+}, []);
+
+
     const scrollToSection = (elementRef) => {
         window.scrollTo({
             top: elementRef.current.offsetTop,
             behavior: 'smooth'
         })
     }
+
     return (
         <div className='bg-first'>
             <nav class=" fixed w-full top-0  bg-first text-second z-50">
@@ -25,8 +53,8 @@ function Nav() {
                     <div className="Middle  items-center gap-4 font-bold text-second hidden lg:flex md:flex z-50" >
                         <div onClick={() => scrollToSection(home)} >Home</div>
                         <div onClick={() => scrollToSection(about)}>About</div>
+                        <div onClick={() => scrollToSection(stacks)}>stacks</div>
                         <div onClick={() => scrollToSection(projects)}>Projects</div>
-
                         <div onClick={() => scrollToSection(testmimonials)}>Testimonials</div>
                         <div onClick={() => scrollToSection(services)}>services</div>
                     </div>
@@ -43,10 +71,12 @@ function Nav() {
            <div className='bg-first' >
             <div className='mt-9' ref={home} ><Home/></div>
             <div className='' ref={about}><About/></div>
+            <div className='' ref={stacks}><Stacks/></div>
+
             <div className='' ref={projects}><Projects/></div>
-            <div className=' h-screen' ref={services}><Services/></div>
             <div className=' h-screen' ref={testmimonials}><Testimonials/></div>
-            <div className=' h-screen' ref={services}><ser/></div>
+            <div className=' h-screen' ref={services}><Services/></div>
+            
             </div>
         </div>
     )

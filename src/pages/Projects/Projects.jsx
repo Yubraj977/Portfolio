@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import Card from './Card';
-
+import {motion} from 'framer-motion'
 import project from './project'
-
+import { useInView } from 'react-intersection-observer';
 
 
 function App() {
 
   const [data, setdata] = useState(project)
-
+  const { ref, inView } = useInView({ triggerOnce: false });
   const filter = (cate) => {
     const filteredItems = project.filter((elem) => elem.category === cate);
     setdata(filteredItems)
@@ -28,12 +28,24 @@ function App() {
 
 
       </div>
-      <div className='flex  gap-4 flex-wrap justify-center items-center'>
-        {data.map((element) => {
-          const { title, image, technology, link, id,description } = element
+      <div className='flex  gap-4 flex-wrap justify-center items-center' ref={ref}>
+        {data.map((element,i) => {
+          const { title, image, technology, link, id,description } = element;
           return (
+            <motion.div
+    
+            key={element.id}
+            initial={{ opacity: 0, scale: 0.8, y: -20 }}
+            animate={inView ? { opacity: 1, scale: 1, y: 0 } : { opacity: 0, scale: 0.8, y: -20 }}
+            transition={{ duration: 0.5, delay: i * 0.1, ease: 'easeInOut' }} // Adjust duration and delay values here
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            
+            >
             <Card key={id} image={image} title={title} technology={technology} link={link} description={description}/>
-          )
+         </motion.div>
+          
+            )
         })}
         </div>
 
