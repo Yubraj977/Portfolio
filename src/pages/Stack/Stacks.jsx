@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import Stack from './Stack';
-
+//Comment
 const data = [
   { name: "Html", duration: "3yrs", color:"yellow" },
   { name: "Css", duration: "3yrs", color:"yellow" },
