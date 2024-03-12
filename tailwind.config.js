@@ -20,7 +20,8 @@ export default {
         first:'rgb(25,25,25)',
         second:'#FFFFFF',
         third:'#2d6cdf',
-        fourth:'#430d27'
+        fourth:'#430d27',
+        fifth:"rgb(119, 119, 119)"
         
 
     },

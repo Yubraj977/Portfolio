@@ -3,6 +3,7 @@ import Card from './Card';
 import {motion} from 'framer-motion'
 import project from './project'
 import { useInView } from 'react-intersection-observer';
+import Stack from '../../Helpers/Stack';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
   }
   return (
     <div className='lg:px-side  pt-top flex flex-col items-center '>
-      <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-second md:text-5xl lg:text-6xl dark:text-white">My <span class="text-blue-600 dark:text-blue-500">Some</span> Projects.</h1>
+      <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-second md:text-5xl lg:text-6xl dark:text-fifth">My <span class="text-blue-600 dark:text-blue-500">Some</span> Projects.</h1>
       <div className="choose">
 
 
@@ -48,6 +49,7 @@ function App() {
             )
         })}
         </div>
+        <Stack/>
 
     </div>
   );

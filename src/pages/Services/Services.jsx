@@ -1,6 +1,8 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
+import Copyright from '../../Helpers/Copyright';
+
 
 const data = [
   { id: 1, name: "hello" },
@@ -20,7 +22,8 @@ function Services() {
   const { ref, inView } = useInView({ triggerOnce: false });
 
   return (
-    <div className='h-screen flex flex-col justify-center items-center text-slate-400 bg-first'>
+
+    <div className=' flex flex-col justify-center items-center text-slate-400 bg-first'>
       <h1 className='text-6xl mb-10  font-sans font-semibold'>Some Services i offer</h1>
       <div ref={ref}>
         {data.map((item, i) => (
@@ -36,9 +39,14 @@ function Services() {
             </p>
           </motion.div>
         ))}
+       
       </div>
-      <p className="text-sm  pt-11 bg-first">All rights reserved &copy; Yubraj Khatri</p>
+      <Copyright />
     </div>
+
+
+
+
   );
 }
 

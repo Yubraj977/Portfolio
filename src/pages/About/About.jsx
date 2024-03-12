@@ -1,6 +1,7 @@
 import React from 'react'
 import about from '/file.jpg'
 import Stacks from './Stacks'
+
 function About() {
   return (
     <div className='  mt-0 p-0    flex flex-col'>
@@ -33,7 +34,7 @@ function About() {
           <img class="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full" src={about} alt="" />
         </div>
       </div>
-
+     
     <Stacks/>
     </div>
   )
