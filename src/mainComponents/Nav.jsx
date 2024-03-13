@@ -41,10 +41,10 @@ useEffect(() => {
 
     return (
         <div className='bg-first'>
-            <nav class=" fixed w-full top-0  bg-first text-second z-50">
+            <nav class=" fixed w-full top-0  bg-first text-fifth z-50">
                 <div className='flex justify-between items-between px-2  lg:px-4 md:px-4'>
-                    <div className="left font-bold text-2xl text-second flex flex-col lg:flex-row"><span className='font-black text-green-700 text-3xl'>Yubraj</span> Khatri</div>
-                    <div className="Middle  items-center gap-4 font-bold text-second hidden lg:flex md:flex z-50" >
+                    <div className="left font-bold text-2xl text-fifth flex flex-col lg:flex-row"><span className='font-black text-green-700 text-3xl'>Yubraj</span> Khatri</div>
+                    <div className="Middle  items-center gap-4 font-bold text-fifth hidden lg:flex md:flex z-50" >
                         <div onClick={() => scrollToSection(home)} >Home</div>
                         <div onClick={() => scrollToSection(about)}>About</div>
                     

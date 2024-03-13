@@ -11,11 +11,11 @@ function Home() {
       <div className="left lg:w-1/2 flex flex-col  justify-center h-screen lg:h-auto  lg:justify-between my-10 z-10 " >
         <div className="top lg:mt-20 ">
         <h1 className='bg-third  w-fit px-1 py-2 rounded-sm font-second'>FULL STACK DEVELOPER</h1>
-        <div className='text-6xl lg:text-4xl font-second  mt-4 text-second font-inika'>
+        <div className='text-6xl lg:text-4xl font-second  mt-4 text-fifth font-inika'>
             <div className='flex flex-col lg:flex-ro                                        w'> <span>No Guts,</span> <span>No Glory</span> </div>
             <div className='flex flex-col lg:flex-row'> <span>No Legend ,</span> <span>No Story </span></div>
           </div>
-          <div className='mt-4 text-second text-2xl lg:text-lg'>I love to constumize every section thats why i choose coding. Come on lets build something for future together. It's all about liverage</div>
+          <div className='mt-4 text-fifth text-2xl lg:text-lg'>I love to constumize every section thats why i choose coding. Come on lets build something for future together. It's all about liverage</div>
           <div className='mt-8 underline text-thrid  text-3xl font-second lg:text-lg'>Let's Chat</div>
         </div>
 

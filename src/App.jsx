@@ -20,10 +20,10 @@ function App() {
   outerAlpha={0}
   hasBlendMode={true}
   innerStyle={{
-    backgroundColor: '#333'
+    backgroundColor: '#c9d5e1'
   }}
   outerStyle={{
-    border: '3px solid #333'
+    border: '3px solid #c9d5e1'
   }}
 />
 
