@@ -14,7 +14,14 @@ export default {
       },
       fontFamily:{
         pano: ["Panoptica W00 Script"],
-        inika:['Inika']
+       
+        allerta: ['Allerta Stencil'],
+        inter:['Inter'],
+      
+        64:['Sixtyfour'],
+        whisper:["Whisper"],
+        pacifico:["Pacifico"],
+        pintrest: ['HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif']
       },
       colors:{
         first:'rgb(25,25,25)',
