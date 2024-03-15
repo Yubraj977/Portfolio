@@ -40,7 +40,7 @@ function Nav() {
     }
 
     return (
-        <div className='bg-black'>
+        <div className='bg-first'>
 
             <nav className=" fixed lg:w-full lg:flex  top-0  bg-black z-50 font-allerta text-white">
                 <div className='flex gap-24 lg:gap-40 items-between py-4  lg:px-4 md:px-4 '>

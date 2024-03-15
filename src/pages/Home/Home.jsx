@@ -1,5 +1,4 @@
 import React from 'react'
-import game from '/game.png'
 import cyber from '/cyber.png'
 import { FaFacebook, FaInstagram,FaLinkedin  } from "react-icons/fa";
 import { FaXTwitter  } from "react-icons/fa6";

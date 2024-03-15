@@ -22,7 +22,7 @@ export default {
         whisper:["Whisper"],
         pacifico:["Pacifico"],
         montserrat:["Montserrat"],
-        pintrest: ['HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif']
+       
       },
       colors:{
         first:'rgb(25,25,25)',

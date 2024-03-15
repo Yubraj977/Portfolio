@@ -1,17 +1,10 @@
 import React from 'react'
-import about from '/file.jpg'
+
 import Stacks from './Stacks'
 import yubraj from '/yub.png'
 function About() {
   return (
-    // <div className='h-screen p-side flex'>
-    //   <div className='left  h-full w-1/2'>
-    //     <img src={yubraj} alt="" className=' h-full w-full object-cover'/>
-    //   </div>
-    //   <div className='right  h-full w-1/2'>
-    //     <h1 className='font-64 text-1xl text-white'>Know little bit more about me</h1>
-    //   </div>
-    // </div>
+   
 
     <div class="w-full max-w-7xl px-4 mx-auto sm:px-8 mt-24 bg-first h-screen flex justify-center items-center ">
       <blockquote class="relative grid items-center bg-black  shadow-xl md:grid-cols-3 rounded-xl text-white">

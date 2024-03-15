@@ -1,5 +1,4 @@
 
-import './App.css'
 import Nav from './mainComponents/Nav'
 
 import AnimatedCursor from "react-animated-cursor"
