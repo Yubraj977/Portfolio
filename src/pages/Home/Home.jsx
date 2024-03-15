@@ -65,7 +65,7 @@ function Home() {
   
     
       {/* For the right part */}
-      <div class='lg:flex flex-col justify-center items-start gap-4 font-black relative right-[-6.7rem]  mb-28 hidden'>
+      <div class='lg:flex lg:flex-col flex-row justify-center items-start gap-4 font-black relative lg:right-[-6.7rem]  mb-28 '>
      
       <a href="https://twitter.com/YubrajK81639352" target='blank'> <div className={rightBox}><span className='mr-8'> <FaXTwitter  className='text-2xl'/>  </span> Twitter/ x</div></a>
       <a href="" target='bank'> <div className={rightBox}><span className='mr-8'> <FaFacebook   className='text-2xl'/>  </span> Facebook</div></a>
