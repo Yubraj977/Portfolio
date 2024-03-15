@@ -32,6 +32,10 @@ export default {
         
 
     },
+    backgroundImage: {
+      'cyber': "url('./public/cyber.png')",
+      
+    }
     },
 
   },

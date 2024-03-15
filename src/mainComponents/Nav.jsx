@@ -42,8 +42,8 @@ function Nav() {
     return (
         <div className='bg-first'>
 
-            <nav className=" fixed w-full top-0  bg-black z-50 font-allerta text-white">
-                <div className='flex gap-40 items-between py-4  lg:px-4 md:px-4 '>
+            <nav className=" fixed lg:w-full lg:flex  top-0  bg-black z-50 font-allerta text-white">
+                <div className='flex gap-28 lg:gap-40 items-between py-4  lg:px-4 md:px-4 '>
                     <div className='font-allerta text-white text-2xl pl-3'>YUBRAJ</div>
 
                     <div className="Middle  items-center gap-4  text-white font-inter hidden lg:flex md:flex z-50 text-base" >

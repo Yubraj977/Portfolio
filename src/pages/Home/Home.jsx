@@ -13,7 +13,7 @@ function Home() {
   return (
     <div className="main   flex flex-col lg:h-screen   md:h-screen lg:flex-row lg: pl-4 lg:pl-8 h-screen bg-black pt-16 lg:justify-between " >
 
-<div className='text-white absolute flex flex-col top-1/2 transform -translate-y-1/2 font-64 font-bold '>
+<div className='text-white absolute lg:flex flex-col top-1/2 transform -translate-y-1/2 font-64 font-bold hidden'>
   <div className='text-white flex gap-4'>
     <span>.</span>
     <span>.</span>
@@ -36,7 +36,7 @@ function Home() {
 
 
       {/* For the left part */}
-      <div className='text-white flex-flex-col w-1/3 ml-[16rem] mt-40 h-fit'>
+      <div className='text-white flex-flex-col lg:w-1/3 lg:ml-[16rem] mt-40 h-fit justify-center items-center'>
 
         <div className=' border-white  border-solid border-l-2 border--2'>
           <h3 className='text-3xl font-64 '>FULL STACK</h3>
@@ -47,9 +47,9 @@ function Home() {
       </div>
 
      {/* For medium part */}
-      <div className="right   lg: z-0 opacity-40 lg:opacity-100  h-[90%] w-[30%]  relative">
-        <img src={cyber} alt="" className='object-cover w-full h-full z-0' />
-        <div className='text-white  z-10 h-[7rem]    rounded-lg flex  absolute w-[44rem] left-[-20%] bottom-[-11.3%] '>
+      <div className="right   lg: z-0 opacity-40 lg:opacity-100  h-[90%] w-[30%] lg:relative lg:block">
+        <img src={cyber} alt="" className='lg:object-cover w-full h-full z-0  lg:block absolute top-10' />
+        <div className='text-white  z-10 h-[7rem]    rounded-lg lg:flex  absolute w-[44rem] left-[-20%] bottom-[-11.3%] hidden'>
           <div className={belowBox}>
             <h1 className='font-allerta'>FRONTEND</h1>
             <p className='font-64 text-[9px] mt-3 '>What your See 👀, What is you believe it is  </p>
@@ -65,7 +65,7 @@ function Home() {
   
     
       {/* For the right part */}
-      <div class='flex flex-col justify-center items-start gap-4 font-black relative right-[-6.7rem]  mb-28 '>
+      <div class='lg:flex flex-col justify-center items-start gap-4 font-black relative right-[-6.7rem]  mb-28 hidden'>
      
       <a href="https://twitter.com/YubrajK81639352" target='blank'> <div className={rightBox}><span className='mr-8'> <FaXTwitter  className='text-2xl'/>  </span> Twitter/ x</div></a>
       <a href="" target='bank'> <div className={rightBox}><span className='mr-8'> <FaFacebook   className='text-2xl'/>  </span> Facebook</div></a>

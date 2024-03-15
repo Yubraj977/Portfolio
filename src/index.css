@@ -33,6 +33,7 @@
 }
 body{
   overflow-x: hidden;
+  /* background-color: black; */
 }
 
 body::-webkit-scrollbar-track
