@@ -31,7 +31,9 @@
   font-family: 'Inika';
 
 }
-
+body{
+  overflow-x: hidden;
+}
 
 body::-webkit-scrollbar-track
 {
