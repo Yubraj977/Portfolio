@@ -15,7 +15,7 @@ function App() {
     setdata(filteredItems)
   }
   return (
-    <div className='lg:px-side  pt-top flex flex-col items-center '>
+    <div className='lg:px-side  pt-top flex flex-col items-center bg-first'>
       <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-second md:text-5xl lg:text-6xl dark:text-fifth">My <span class="text-blue-600 dark:text-blue-500">Some</span> Projects.</h1>
       <div className="choose">
 

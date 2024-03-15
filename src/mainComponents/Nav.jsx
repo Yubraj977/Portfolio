@@ -40,7 +40,7 @@ function Nav() {
     }
 
     return (
-        <div className='bg-first'>
+        <div className='bg-black'>
 
             <nav className=" fixed lg:w-full lg:flex  top-0  bg-black z-50 font-allerta text-white">
                 <div className='flex gap-24 lg:gap-40 items-between py-4  lg:px-4 md:px-4 '>
@@ -73,9 +73,9 @@ function Nav() {
 
 
 
-            <div className='bg-first' >
+            <div  >
                 <div className='' ref={home} ><Home /></div>
-                <div className='' ref={about}><About /></div>
+                <div className='bg-first' ref={about}><About /></div>
                 <div className='' ref={projects}><Projects /></div>
                 <div className=' ' ref={testmimonials}><Testimonials /></div>
                 <div className=' ' ref={services}><Services /></div>

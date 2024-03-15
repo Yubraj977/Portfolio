@@ -13,8 +13,8 @@ function About() {
     //   </div>
     // </div>
 
-    <div class="w-full max-w-7xl px-4 mx-auto sm:px-8 mt-24">
-      <blockquote class="relative grid items-center bg-black shadow-xl md:grid-cols-3 rounded-xl text-white">
+    <div class="w-full max-w-7xl px-4 mx-auto sm:px-8 mt-24 bg-first h-screen flex justify-center items-center ">
+      <blockquote class="relative grid items-center bg-black  shadow-xl md:grid-cols-3 rounded-xl text-white">
 
         <img class="hidden object-cover w-full h-full rounded-l-xl md:block" src={yubraj} />
 
