@@ -5,16 +5,15 @@ import Copyright from '../../Helpers/Copyright';
 
 
 const data = [
-  { id: 1, name: "hello" },
-  { id: 2, name: "hg" },
-  { id: 3, name: "sdfghjk" },
-  { id: 4, name: "sdfghjk" },
-  { id: 5, name: "sdfghjk" },
-  { id: 6, name: "hello" },
-  { id: 7, name: "hello" },
-  { id: 8, name: "hello" },
-  { id: 9, name: "hello" },
-  { id: 10, name: "Gig Chat in the time " },
+  { id: 1, name: "Digital Solution" },
+  { id: 2, name: "Teaching Online" },
+  { id: 3, name: "Collobrative Team works" },
+  { id: 4, name: "Develop sites for personal use" },
+  { id: 5, name: "Develop sites for professional sites" },
+  { id: 6, name: "Manage existing published sites" },
+  { id: 7, name: "Full stack webapps and apis" },
+  { id: 8, name: "post for social medias" },
+
 
 ];
 
@@ -23,8 +22,8 @@ function Services() {
 
   return (
 
-    <div className=' flex flex-col justify-center items-center text-slate-400 bg-first'>
-      <h1 className='text-6xl mb-10  font-sans font-semibold'>Some Services i offer</h1>
+    <div className=' flex flex-col justify-center items-center text-slate-400 bg-first mt-top'>
+      <h1 className='lg:text-6xl mb-10  font-allerta font-semibold text-center text-4xl'>Some Services I offer</h1>
       <div ref={ref}>
         {data.map((item, i) => (
           <motion.div
@@ -33,8 +32,8 @@ function Services() {
             animate={inView ? { opacity: 1, scale: 1, y: 0 } : { opacity: 0, scale: 0.8, y: -20 }}
             transition={{ duration: 0.5, delay: i * 0.1, ease: 'easeIn' }}
           >
-            <p className=' text-5xl my-2 font-pano  transition ease-in-out delay-150 hover:scale-110 duration-500 hover:text-second text-center'>
-              <sup className='px-4 text-xl'>{item.id}</sup>
+            <p className=' text-4xl text-fifth my-6   transition ease-in font-montserrat delay-250 hover:scale-110 duration-900 hover:text-second text-center'>
+              <sup className='px-4 text-[0.8rem]'>{item.id}</sup>
               {item.name}
             </p>
           </motion.div>

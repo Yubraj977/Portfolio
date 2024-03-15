@@ -1,12 +1,13 @@
 @import url(https://db.onlinewebfonts.com/c/89f9d5d8d8cfe941b20f6a20f4dd99bc?family=Panoptica+W00+Script);
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Inter:wght@100..900&family=Micro+5&family=Pacifico&family=Sixtyfour&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Inter:wght@100..900&family=Micro+5&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Sixtyfour&family=Whisper&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 @font-face {
-  font-family:  "Allerta Stencil","Panoptica W00 Script","Inter","Micro 5","Sixtyfour","Whisper","Pacifico"  sans-serif;
+  font-family:  "Allerta Stencil","Panoptica W00 Script","Inter","Micro 5","Sixtyfour","Whisper","Pacifico","Montserrat"  sans-serif;
 
     src: url("https://db.onlinewebfonts.com/t/89f9d5d8d8cfe941b20f6a20f4dd99bc.eot");
     src: url("https://db.onlinewebfonts.com/t/89f9d5d8d8cfe941b20f6a20f4dd99bc.eot?#iefix")format("embedded-opentype"),

@@ -77,8 +77,8 @@ function Nav() {
                 <div className='' ref={home} ><Home /></div>
                 <div className='' ref={about}><About /></div>
                 <div className='' ref={projects}><Projects /></div>
-                <div className=' h-screen' ref={testmimonials}><Testimonials /></div>
-                <div className=' h-screen' ref={services}><Services /></div>
+                <div className=' ' ref={testmimonials}><Testimonials /></div>
+                <div className=' ' ref={services}><Services /></div>
 
             </div>
         </div>

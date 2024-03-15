@@ -10,7 +10,7 @@ export default {
     extend: {
       spacing: {
         side:'50px',
-        top:'70px'
+        top:'100px'
       },
       fontFamily:{
         pano: ["Panoptica W00 Script"],
@@ -21,6 +21,7 @@ export default {
         64:['Sixtyfour'],
         whisper:["Whisper"],
         pacifico:["Pacifico"],
+        montserrat:["Montserrat"],
         pintrest: ['HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif']
       },
       colors:{
@@ -32,10 +33,7 @@ export default {
         
 
     },
-    backgroundImage: {
-      'cyber': "url('./public/cyber.png')",
-      
-    }
+    
     },
 
   },
