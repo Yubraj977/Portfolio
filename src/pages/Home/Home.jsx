@@ -40,15 +40,15 @@ function Home() {
 
         <div className=' border-white  border-solid border-l-2 border--2'>
           <h3 className='text-3xl font-64 '>FULL STACK</h3>
-          <h1 className='text-[3.1rem] font-64 '>DEVELOPER </h1>
+          <h1 className='lg:text-[3.1rem] text-[2.8rem] font-64 '>DEVELOPER </h1>
         </div>
-        <p className='text-[0.8rem] mt-4 font-inter  '>I love to create Learn update and fix."Hello! I'm a full-stack developer hailing from the beautiful land of Nepal, where I craft digital solutions from front-end to back-end with passion and expertise."</p>
-        <button className='mt-6 border-2 border-fifth px-4 py-2 rounded-sm'>Let's Chat</button>
+        <p className='lg:text-[0.8rem] text-[1rem] mt-10 lg:mt-4 font-inter  '>I love to create Learn update and fix."Hello! I'm a full-stack developer hailing from the beautiful land of Nepal, where I craft digital solutions from front-end to back-end with passion and expertise."</p>
+        <button className='lg:mt-6 mt-10 border-2 border-fifth px-4 py-2 rounded-sm'>Let's Chat</button>
       </div>
 
      {/* For medium part */}
       <div className="right   lg: z-0 opacity-40 lg:opacity-100  h-[90%] w-[30%] lg:relative lg:block">
-        <img src={cyber} alt="" className='lg:object-cover w-full h-full z-0  lg:block absolute top-10' />
+        <img src={cyber} alt="" className='lg:object-cover w-full h-full z-0  lg:block absolute top-10 left-0' />
         <div className='text-white  z-10 h-[7rem]    rounded-lg lg:flex  absolute w-[44rem] left-[-20%] bottom-[-11.3%] hidden'>
           <div className={belowBox}>
             <h1 className='font-allerta'>FRONTEND</h1>
