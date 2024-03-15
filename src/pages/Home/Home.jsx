@@ -7,7 +7,7 @@ import { FaXTwitter  } from "react-icons/fa6";
 
 
 
-const rightBox=' text-sm text-white font-allerta transition-transform duration-500 ease-in hover:translate-x-[-6rem]   bg-gradient-to-br from-black to-gray-500 bg-opacity-1 py-2 px-4 rounded-lg flex'
+const rightBox=' text-sm text-white font-allerta transition-transform duration-500 ease-in lg:hover:translate-x-[-6rem]   bg-gradient-to-br from-black to-gray-500 bg-opacity-1 py-2 px-4 rounded-lg flex w-fit'
 const belowBox='bg-gradient-to-br from-black to-neutral-900 bg-opacity-1 w-1/2 px-8 flex flex-col justify-center py-4  hover:scale-110  transition-transform duration-300 ease-in hover:skew-x-6'
 function Home() {
   return (
@@ -65,7 +65,7 @@ function Home() {
   
     
       {/* For the right part */}
-      <div class='lg:flex lg:flex-col flex-row justify-center items-start gap-4 font-black relative lg:right-[-6.7rem]  mb-28 '>
+      <div class='lg:flex lg:flex-col flex-row justify-center items-center lg:items-start  gap-20 z-20 lg:gap-4 font-black lg:relative lg:right-[-6.7rem]  mb-28 flex-wrap'>
      
       <a href="https://twitter.com/YubrajK81639352" target='blank'> <div className={rightBox}><span className='mr-8'> <FaXTwitter  className='text-2xl'/>  </span> Twitter/ x</div></a>
       <a href="" target='bank'> <div className={rightBox}><span className='mr-8'> <FaFacebook   className='text-2xl'/>  </span> Facebook</div></a>
