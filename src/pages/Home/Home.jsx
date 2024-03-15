@@ -11,7 +11,7 @@ const rightBox=' text-sm text-white font-allerta transition-transform duration-5
 const belowBox='bg-gradient-to-br from-black to-neutral-900 bg-opacity-1 w-1/2 px-8 flex flex-col justify-center py-4  hover:scale-110  transition-transform duration-300 ease-in hover:skew-x-6'
 function Home() {
   return (
-    <div className="main   flex flex-col lg:h-screen   md:h-screen lg:flex-row lg: pl-4 lg:pl-8 h-screen bg-black pt-16 lg:justify-between " >
+    <div className="main   flex flex-col lg:h-screen   md:h-screen lg:flex-row lg: px-4 lg:pl-8 h-screen bg-black pt-16 lg:justify-between " >
 
 <div className='text-white absolute lg:flex flex-col top-1/2 transform -translate-y-1/2 font-64 font-bold hidden'>
   <div className='text-white flex gap-4'>
@@ -42,8 +42,8 @@ function Home() {
           <h3 className='text-3xl font-64 '>FULL STACK</h3>
           <h1 className='lg:text-[3.1rem] text-[2.8rem] font-64 '>DEVELOPER </h1>
         </div>
-        <p className='lg:text-[0.8rem] text-[1rem] mt-10 lg:mt-4 font-inter  '>I love to create Learn update and fix."Hello! I'm a full-stack developer hailing from the beautiful land of Nepal, where I craft digital solutions from front-end to back-end with passion and expertise."</p>
-        <button className='lg:mt-6 mt-10 border-2 border-fifth px-4 py-2 rounded-sm'>Let's Chat</button>
+        <p className='lg:text-[0.8rem] text-[1.5rem] mt-10 lg:mt-4 font-inter  '>I love to create Learn update and fix."Hello! I'm a full-stack developer hailing from the beautiful land of Nepal, where I craft digital solutions from front-end to back-end with passion and expertise."</p>
+        <button className='lg:mt-6 mt-10 border-2 border-fifth lg:px-4 lg:py-2  px-8 py-4 rounded-sm text-2xl lg:text-base'>Let's Chat</button>
       </div>
 
      {/* For medium part */}
@@ -65,7 +65,7 @@ function Home() {
   
     
       {/* For the right part */}
-      <div class='lg:flex lg:flex-col flex-row justify-center items-center lg:items-start  gap-20 z-20 lg:gap-4 font-black lg:relative lg:right-[-6.7rem]  mb-28 flex-wrap'>
+      <div class='lg:flex lg:flex-col flex-row justify-center items-center lg:items-start  gap-20 z-20 lg:gap-4 font-black lg:relative lg:right-[-6.7rem]  mb-28 flex-wrap hidden'>
      
       <a href="https://twitter.com/YubrajK81639352" target='blank'> <div className={rightBox}><span className='mr-8'> <FaXTwitter  className='text-2xl'/>  </span> Twitter/ x</div></a>
       <a href="" target='bank'> <div className={rightBox}><span className='mr-8'> <FaFacebook   className='text-2xl'/>  </span> Facebook</div></a>
