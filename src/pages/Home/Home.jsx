@@ -10,7 +10,7 @@ const rightBox=' text-sm text-white font-allerta transition-transform duration-5
 const belowBox='bg-gradient-to-br from-black to-neutral-900 bg-opacity-1 w-1/2 px-8 flex flex-col justify-center py-4  hover:scale-110  transition-transform duration-300 ease-in hover:skew-x-6 dark:bg-gradient-to-br dark:from-white dark:to-neutral-700 bg-opacity-1 dark:bg-opacity-1'
 function Home() {
   return (
-    <div className="main   flex flex-col lg:h-screen   md:h-screen lg:flex-row lg: px-4 lg:pl-8 h-screen pt-16 lg:justify-between dark:bg-white" >
+    <div className="main   flex flex-col lg:h-screen   md:h-screen lg:flex-row lg: px-4 lg:pl-8 h-screen pt-16 lg:justify-between dark:bg-white bg-black" >
 
 <div className='text-white absolute lg:flex flex-col top-1/2 transform -translate-y-1/2 font-64 font-bold hidden'>
   <div className='text-white flex gap-4 dark:text-black'>

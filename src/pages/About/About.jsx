@@ -6,7 +6,7 @@ function About() {
   return (
    
 
-    <div class="w-full max-w-7xl px-4 mx-auto sm:px-8 mt-24 bg-first h-screen flex justify-center items-center ">
+    <div class="w-full max-w-7xl px-4 mx-auto sm:px-8 pt-24 bg-first h-screen flex justify-center items-center  dark:bg-white">
       <blockquote class="relative grid items-center bg-black  shadow-xl md:grid-cols-3 rounded-xl text-white">
 
         <img class="hidden object-cover w-full h-full rounded-l-xl md:block" src={yubraj} />
@@ -16,7 +16,7 @@ function About() {
             height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M65.44 153.526V149.526H61.44H20.48C11.3675 149.526 4 142.163 4 133.105V51.4211C4 42.3628 11.3675 35 20.48 35H102.4C111.513 35 118.88 42.3628 118.88 51.4211V166.187C118.88 195.935 95.103 220.165 65.44 220.979V153.526ZM198.56 153.526V149.526H194.56H153.6C144.487 149.526 137.12 142.163 137.12 133.105V51.4211C137.12 42.3628 144.487 35 153.6 35H235.52C244.633 35 252 42.3628 252 51.4211V166.187C252 195.935 228.223 220.165 198.56 220.979V153.526Z"
-              stroke="currentColor" stroke-width="8"></path>
+              stroke="currentColor" strokeWidth="8"></path>
           </svg>
 
           <div class="space-y-8">
