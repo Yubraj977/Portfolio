@@ -12,6 +12,9 @@ export default {
         side:'50px',
         top:'100px'
       },
+      boxShadow: {
+        custom: '0px 10px 30px rgba(242, 229, 236, 0.2)',
+      },
       fontFamily:{
         pano: ["Panoptica W00 Script"],
        
