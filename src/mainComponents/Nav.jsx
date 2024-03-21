@@ -5,7 +5,7 @@ import About from '../pages/About/About'
 import Services from '../pages/Services/Services'
 import Testimonials from '../pages/Testimonials/Testimonials'
 import Projects from '../pages/Projects/Projects'
-
+import { DarkThemeToggle } from 'flowbite-react';
 function Nav() {
 
     const home = useRef(null)
@@ -42,11 +42,11 @@ function Nav() {
     return (
         <div className='bg-first'>
 
-            <nav className=" fixed lg:w-full lg:flex  top-0  bg-neutral-900 z-50 font-allerta text-white  brder-[0.5px] border-gray-600 shadow-custom ">
+            <nav className=" fixed lg:w-full lg:flex  top-0  bg-neutral-900 z-50 font-allerta text-white  brder-[0.5px] border-gray-600 shadow-custom  dark:bg-neutral-200 dark:text-neutral-900">
                 <div className='flex gap-24 lg:gap-40 items-between py-3  lg:px-4 md:px-4 '>
-                    <div className='font-allerta text-white text-2xl pl-3'>YUBRAJ</div>
+                    <div className='font-allerta  text-2xl pl-3'>YUBRAJ</div>
 
-                    <div className="Middle  items-center gap-4  text-white font-inter hidden lg:flex md:flex z-50 text-base" >
+                    <div className="Middle  items-center gap-4   font-inter hidden lg:flex md:flex z-50 text-base" >
                         <div onClick={() => scrollToSection(home)} className='font-allerta'>Home</div>
                         <div onClick={() => scrollToSection(about)} className='font-allerta'>About</div>
                         <div onClick={() => scrollToSection(projects)} className='font-allerta'>Projects</div>
@@ -65,6 +65,7 @@ function Nav() {
                        Github
                        </a>
                     </button>
+                    <DarkThemeToggle  className='border-0 hover:border-opacity-0 hover:bg-opacity-0 hover:text-opacity-100'/>
                     
 
                   

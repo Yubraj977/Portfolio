@@ -3,7 +3,9 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    'node_modules/flowbite-react/lib/esm/**/*.js'
   ],
+ 
   theme: {
     
   
@@ -13,7 +15,7 @@ export default {
         top:'100px'
       },
       boxShadow: {
-        custom: '0px 10px 30px rgba(242, 229, 236, 0.2)',
+        custom: '0px 10px 30px rgba(47, 40, 43, 0.8)',
       },
       fontFamily:{
         pano: ["Panoptica W00 Script"],
@@ -30,7 +32,6 @@ export default {
       colors:{
         first:'rgb(25,25,25)',
         second:'#FFFFFF',
-        third:'#2d6cdf',
         fourth:'#430d27',
         fifth:"rgb(119, 119, 119)"
         
@@ -40,6 +41,8 @@ export default {
     },
 
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
 
