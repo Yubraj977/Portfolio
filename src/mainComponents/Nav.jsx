@@ -53,7 +53,7 @@ function Nav() {
 <nav className=" fixed w-full lg:flex  top-0  bg-neutral-900 z-50 font-allerta text-white  brder-[0.5px] border-gray-600 dark:shadow-custom  dark:bg-neutral-200 dark:text-neutral-900  ">
     
     
-    <div className='flex  lg:gap-40 items-between py-2  lg:px-4 md:px-4 lg:justify-between '>
+    <div className='flex  lg:gap-40 items-between py-2  lg:px-4 md:px-4 gap-6 '>
        
         <div className='font-allerta  text-2xl pl-3'>YUBRAJ</div>
 
