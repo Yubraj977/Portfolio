@@ -50,7 +50,7 @@ function Nav() {
 
 
 
-<nav className=" fixed lg:w-full lg:flex  top-0  bg-neutral-900 z-50 font-allerta text-white  brder-[0.5px] border-gray-600 dark:shadow-custom  dark:bg-neutral-200 dark:text-neutral-900  ">
+<nav className=" fixed w-full lg:flex  top-0  bg-neutral-900 z-50 font-allerta text-white  brder-[0.5px] border-gray-600 dark:shadow-custom  dark:bg-neutral-200 dark:text-neutral-900  ">
     
     
     <div className='flex  lg:gap-40 items-between py-2  lg:px-4 md:px-4 lg:justify-between '>
@@ -65,7 +65,7 @@ function Nav() {
             <div onClick={() => scrollToSection(services)} className='font-allerta'>services</div>
         </div>
 
-     <div className="right flex  lg:gap-28 gap-2 ">
+     <div className="right flex  lg:gap-28 gap-4 ">
          <button  className="text-white bg-[#24292F] rounded-lg text-sm  text-center inline-flex items-center px-3 ml-40">
             
             <a href="https://github.com/Yubraj977" target='blank'><svg className="w-4 h-4 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
